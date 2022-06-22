@@ -34,7 +34,8 @@ class TicTacToe:
                 self.current_winner = letter
             return True
         return False
-
+    
+    # defining win condition to stop game
     def winner(self , square , letter):
 
 
